@@ -91,4 +91,28 @@ define();
 - `GitMerge` (`anatomy-figures/git-merge`): Branch and merge
 - `Reactor` (`anatomy-figures/reactor`): Pool reactor
 
+## Early examples
+
+The first figures, drawn for a WebGL glass library before the skill had its own rules. They take the same props, but they keep their own light and dark palettes: `theme` picks the base (`light`, `paper` and `sepia` draw light; `dark` and `blueprint` draw dark), and `--anatomy-card` sets their ground. The other tokens don't reach them. They render with React, so the custom elements need `react` and `react-dom` installed too.
+
+- `OnePane` (`anatomy-figures/one-pane`): One pane
+- `OneContext` (`anatomy-figures/one-context`): One context
+- `SharedCanvas` (`anatomy-figures/shared-canvas`): Shared canvas
+- `OneTexture` (`anatomy-figures/one-texture`): One texture
+- `Fit` (`anatomy-figures/fit`): Fit
+- `OneStage` (`anatomy-figures/one-stage`): One stage
+- `SeparableBlur` (`anatomy-figures/separable-blur`): Separable blur
+- `FieldKey` (`anatomy-figures/field-key`): Field key
+- `FourFrames` (`anatomy-figures/four-frames`): Four frames
+- `Lookup` (`anatomy-figures/lookup`): Lookup
+- `Profile` (`anatomy-figures/profile`): Profile
+- `LensBench` (`anatomy-figures/lens-bench`): Dispersion
+- `Studio` (`anatomy-figures/studio`): Rim light
+- `FrostedCopy` (`anatomy-figures/frosted-copy`): Frosted copy
+- `SpotPlate` (`anatomy-figures/spot-plate`): Spot plate
+- `BevelOffset` (`anatomy-figures/bevel-offset`): Bevel offset
+- `LitByFacing` (`anatomy-figures/lit-by-facing`): Lit by facing
+- `PressAndPull` (`anatomy-figures/press-and-pull`): Press and pull
+- `ThreeReads` (`anatomy-figures/three-reads`): Three reads
+
 MIT

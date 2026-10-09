@@ -281,6 +281,158 @@
       "types": "./dist/element/reactor.d.ts",
       "import": "./dist/element/reactor.js"
     },
+    "./one-pane": {
+      "types": "./dist/one-pane.d.ts",
+      "import": "./dist/one-pane.js"
+    },
+    "./element/one-pane": {
+      "types": "./dist/element/one-pane.d.ts",
+      "import": "./dist/element/one-pane.js"
+    },
+    "./one-context": {
+      "types": "./dist/one-context.d.ts",
+      "import": "./dist/one-context.js"
+    },
+    "./element/one-context": {
+      "types": "./dist/element/one-context.d.ts",
+      "import": "./dist/element/one-context.js"
+    },
+    "./shared-canvas": {
+      "types": "./dist/shared-canvas.d.ts",
+      "import": "./dist/shared-canvas.js"
+    },
+    "./element/shared-canvas": {
+      "types": "./dist/element/shared-canvas.d.ts",
+      "import": "./dist/element/shared-canvas.js"
+    },
+    "./one-texture": {
+      "types": "./dist/one-texture.d.ts",
+      "import": "./dist/one-texture.js"
+    },
+    "./element/one-texture": {
+      "types": "./dist/element/one-texture.d.ts",
+      "import": "./dist/element/one-texture.js"
+    },
+    "./fit": {
+      "types": "./dist/fit.d.ts",
+      "import": "./dist/fit.js"
+    },
+    "./element/fit": {
+      "types": "./dist/element/fit.d.ts",
+      "import": "./dist/element/fit.js"
+    },
+    "./one-stage": {
+      "types": "./dist/one-stage.d.ts",
+      "import": "./dist/one-stage.js"
+    },
+    "./element/one-stage": {
+      "types": "./dist/element/one-stage.d.ts",
+      "import": "./dist/element/one-stage.js"
+    },
+    "./separable-blur": {
+      "types": "./dist/separable-blur.d.ts",
+      "import": "./dist/separable-blur.js"
+    },
+    "./element/separable-blur": {
+      "types": "./dist/element/separable-blur.d.ts",
+      "import": "./dist/element/separable-blur.js"
+    },
+    "./field-key": {
+      "types": "./dist/field-key.d.ts",
+      "import": "./dist/field-key.js"
+    },
+    "./element/field-key": {
+      "types": "./dist/element/field-key.d.ts",
+      "import": "./dist/element/field-key.js"
+    },
+    "./four-frames": {
+      "types": "./dist/four-frames.d.ts",
+      "import": "./dist/four-frames.js"
+    },
+    "./element/four-frames": {
+      "types": "./dist/element/four-frames.d.ts",
+      "import": "./dist/element/four-frames.js"
+    },
+    "./lookup": {
+      "types": "./dist/lookup.d.ts",
+      "import": "./dist/lookup.js"
+    },
+    "./element/lookup": {
+      "types": "./dist/element/lookup.d.ts",
+      "import": "./dist/element/lookup.js"
+    },
+    "./profile": {
+      "types": "./dist/profile.d.ts",
+      "import": "./dist/profile.js"
+    },
+    "./element/profile": {
+      "types": "./dist/element/profile.d.ts",
+      "import": "./dist/element/profile.js"
+    },
+    "./lens-bench": {
+      "types": "./dist/lens-bench.d.ts",
+      "import": "./dist/lens-bench.js"
+    },
+    "./element/lens-bench": {
+      "types": "./dist/element/lens-bench.d.ts",
+      "import": "./dist/element/lens-bench.js"
+    },
+    "./studio": {
+      "types": "./dist/studio.d.ts",
+      "import": "./dist/studio.js"
+    },
+    "./element/studio": {
+      "types": "./dist/element/studio.d.ts",
+      "import": "./dist/element/studio.js"
+    },
+    "./frosted-copy": {
+      "types": "./dist/frosted-copy.d.ts",
+      "import": "./dist/frosted-copy.js"
+    },
+    "./element/frosted-copy": {
+      "types": "./dist/element/frosted-copy.d.ts",
+      "import": "./dist/element/frosted-copy.js"
+    },
+    "./spot-plate": {
+      "types": "./dist/spot-plate.d.ts",
+      "import": "./dist/spot-plate.js"
+    },
+    "./element/spot-plate": {
+      "types": "./dist/element/spot-plate.d.ts",
+      "import": "./dist/element/spot-plate.js"
+    },
+    "./bevel-offset": {
+      "types": "./dist/bevel-offset.d.ts",
+      "import": "./dist/bevel-offset.js"
+    },
+    "./element/bevel-offset": {
+      "types": "./dist/element/bevel-offset.d.ts",
+      "import": "./dist/element/bevel-offset.js"
+    },
+    "./lit-by-facing": {
+      "types": "./dist/lit-by-facing.d.ts",
+      "import": "./dist/lit-by-facing.js"
+    },
+    "./element/lit-by-facing": {
+      "types": "./dist/element/lit-by-facing.d.ts",
+      "import": "./dist/element/lit-by-facing.js"
+    },
+    "./press-and-pull": {
+      "types": "./dist/press-and-pull.d.ts",
+      "import": "./dist/press-and-pull.js"
+    },
+    "./element/press-and-pull": {
+      "types": "./dist/element/press-and-pull.d.ts",
+      "import": "./dist/element/press-and-pull.js"
+    },
+    "./three-reads": {
+      "types": "./dist/three-reads.d.ts",
+      "import": "./dist/three-reads.js"
+    },
+    "./element/three-reads": {
+      "types": "./dist/element/three-reads.d.ts",
+      "import": "./dist/element/three-reads.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
@@ -299,13 +451,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wheresryan22/anatomy.git"
+    "url": "git+https://github.com/wheresryan22/anatomy-figures.git"
   },
   "peerDependencies": {
-    "react": ">=18"
+    "react": ">=18",
+    "react-dom": ">=18"
   },
   "peerDependenciesMeta": {
     "react": {
+      "optional": true
+    },
+    "react-dom": {
       "optional": true
     }
   }

@@ -199,6 +199,139 @@
       "name": "Reactor",
       "tag": "anatomy-reactor",
       "title": "Pool reactor"
+    },
+    {
+      "id": "one-pane",
+      "name": "OnePane",
+      "tag": "anatomy-one-pane",
+      "title": "One pane",
+      "early": true
+    },
+    {
+      "id": "one-context",
+      "name": "OneContext",
+      "tag": "anatomy-one-context",
+      "title": "One context",
+      "early": true
+    },
+    {
+      "id": "shared-canvas",
+      "name": "SharedCanvas",
+      "tag": "anatomy-shared-canvas",
+      "title": "Shared canvas",
+      "early": true
+    },
+    {
+      "id": "one-texture",
+      "name": "OneTexture",
+      "tag": "anatomy-one-texture",
+      "title": "One texture",
+      "early": true
+    },
+    {
+      "id": "fit",
+      "name": "Fit",
+      "tag": "anatomy-fit",
+      "title": "Fit",
+      "early": true
+    },
+    {
+      "id": "one-stage",
+      "name": "OneStage",
+      "tag": "anatomy-one-stage",
+      "title": "One stage",
+      "early": true
+    },
+    {
+      "id": "separable-blur",
+      "name": "SeparableBlur",
+      "tag": "anatomy-separable-blur",
+      "title": "Separable blur",
+      "early": true
+    },
+    {
+      "id": "field-key",
+      "name": "FieldKey",
+      "tag": "anatomy-field-key",
+      "title": "Field key",
+      "early": true
+    },
+    {
+      "id": "four-frames",
+      "name": "FourFrames",
+      "tag": "anatomy-four-frames",
+      "title": "Four frames",
+      "early": true
+    },
+    {
+      "id": "lookup",
+      "name": "Lookup",
+      "tag": "anatomy-lookup",
+      "title": "Lookup",
+      "early": true
+    },
+    {
+      "id": "profile",
+      "name": "Profile",
+      "tag": "anatomy-profile",
+      "title": "Profile",
+      "early": true
+    },
+    {
+      "id": "lens-bench",
+      "name": "LensBench",
+      "tag": "anatomy-lens-bench",
+      "title": "Dispersion",
+      "early": true
+    },
+    {
+      "id": "studio",
+      "name": "Studio",
+      "tag": "anatomy-studio",
+      "title": "Rim light",
+      "early": true
+    },
+    {
+      "id": "frosted-copy",
+      "name": "FrostedCopy",
+      "tag": "anatomy-frosted-copy",
+      "title": "Frosted copy",
+      "early": true
+    },
+    {
+      "id": "spot-plate",
+      "name": "SpotPlate",
+      "tag": "anatomy-spot-plate",
+      "title": "Spot plate",
+      "early": true
+    },
+    {
+      "id": "bevel-offset",
+      "name": "BevelOffset",
+      "tag": "anatomy-bevel-offset",
+      "title": "Bevel offset",
+      "early": true
+    },
+    {
+      "id": "lit-by-facing",
+      "name": "LitByFacing",
+      "tag": "anatomy-lit-by-facing",
+      "title": "Lit by facing",
+      "early": true
+    },
+    {
+      "id": "press-and-pull",
+      "name": "PressAndPull",
+      "tag": "anatomy-press-and-pull",
+      "title": "Press and pull",
+      "early": true
+    },
+    {
+      "id": "three-reads",
+      "name": "ThreeReads",
+      "tag": "anatomy-three-reads",
+      "title": "Three reads",
+      "early": true
     }
   ]
 }
