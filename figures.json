@@ -1,0 +1,204 @@
+{
+  "name": "anatomy-figures",
+  "version": "0.1.0",
+  "figures": [
+    {
+      "id": "hash-map",
+      "name": "HashMap",
+      "tag": "anatomy-hash-map",
+      "title": "Hash map collisions"
+    },
+    {
+      "id": "binary-search",
+      "name": "BinarySearch",
+      "tag": "anatomy-binary-search",
+      "title": "Binary search"
+    },
+    {
+      "id": "dns",
+      "name": "Dns",
+      "tag": "anatomy-dns",
+      "title": "DNS resolution"
+    },
+    {
+      "id": "message-queue",
+      "name": "MessageQueue",
+      "tag": "anatomy-message-queue",
+      "title": "Message queue"
+    },
+    {
+      "id": "lru-cache",
+      "name": "LruCache",
+      "tag": "anatomy-lru-cache",
+      "title": "LRU cache"
+    },
+    {
+      "id": "tcp-handshake",
+      "name": "TcpHandshake",
+      "tag": "anatomy-tcp-handshake",
+      "title": "TCP handshake"
+    },
+    {
+      "id": "gradient-descent",
+      "name": "GradientDescent",
+      "tag": "anatomy-gradient-descent",
+      "title": "Gradient descent"
+    },
+    {
+      "id": "bloom-filter",
+      "name": "BloomFilter",
+      "tag": "anatomy-bloom-filter",
+      "title": "Bloom filter"
+    },
+    {
+      "id": "flex-grow",
+      "name": "FlexGrow",
+      "tag": "anatomy-flex-grow",
+      "title": "flex-grow"
+    },
+    {
+      "id": "mark-sweep",
+      "name": "MarkSweep",
+      "tag": "anatomy-mark-sweep",
+      "title": "Mark and sweep"
+    },
+    {
+      "id": "b-tree",
+      "name": "BTree",
+      "tag": "anatomy-b-tree",
+      "title": "B-tree index"
+    },
+    {
+      "id": "debounce",
+      "name": "Debounce",
+      "tag": "anatomy-debounce",
+      "title": "Debounce and throttle"
+    },
+    {
+      "id": "mutex",
+      "name": "Mutex",
+      "tag": "anatomy-mutex",
+      "title": "Mutex"
+    },
+    {
+      "id": "merge-sort",
+      "name": "MergeSort",
+      "tag": "anatomy-merge-sort",
+      "title": "Merge sort"
+    },
+    {
+      "id": "sampling",
+      "name": "Sampling",
+      "tag": "anatomy-sampling",
+      "title": "Temperature"
+    },
+    {
+      "id": "afterburner",
+      "name": "Afterburner",
+      "tag": "anatomy-afterburner",
+      "title": "Afterburner"
+    },
+    {
+      "id": "glass-furnace",
+      "name": "GlassFurnace",
+      "tag": "anatomy-glass-furnace",
+      "title": "Glory hole"
+    },
+    {
+      "id": "tokamak",
+      "name": "Tokamak",
+      "tag": "anatomy-tokamak",
+      "title": "Tokamak shot"
+    },
+    {
+      "id": "plasma-cutter",
+      "name": "PlasmaCutter",
+      "tag": "anatomy-plasma-cutter",
+      "title": "Plasma cutter"
+    },
+    {
+      "id": "forge",
+      "name": "Forge",
+      "tag": "anatomy-forge",
+      "title": "Forge and hammer"
+    },
+    {
+      "id": "turbofan",
+      "name": "Turbofan",
+      "tag": "anatomy-turbofan",
+      "title": "Turbofan ground run"
+    },
+    {
+      "id": "power-station",
+      "name": "PowerStation",
+      "tag": "anatomy-power-station",
+      "title": "Power station"
+    },
+    {
+      "id": "process-pump",
+      "name": "ProcessPump",
+      "tag": "anatomy-process-pump",
+      "title": "Process pump"
+    },
+    {
+      "id": "watch",
+      "name": "Watch",
+      "tag": "anatomy-watch",
+      "title": "Watch movement"
+    },
+    {
+      "id": "seasons",
+      "name": "Seasons",
+      "tag": "anatomy-seasons",
+      "title": "Seasons"
+    },
+    {
+      "id": "computer",
+      "name": "Computer",
+      "tag": "anatomy-computer",
+      "title": "Desk computer"
+    },
+    {
+      "id": "rate-limiter",
+      "name": "RateLimiter",
+      "tag": "anatomy-rate-limiter",
+      "title": "Token bucket"
+    },
+    {
+      "id": "easing",
+      "name": "Easing",
+      "tag": "anatomy-easing",
+      "title": "Easing bench"
+    },
+    {
+      "id": "public-key",
+      "name": "PublicKey",
+      "tag": "anatomy-public-key",
+      "title": "Two-key box"
+    },
+    {
+      "id": "foundry",
+      "name": "Foundry",
+      "tag": "anatomy-foundry",
+      "title": "Foundry pour"
+    },
+    {
+      "id": "box-model",
+      "name": "BoxModel",
+      "tag": "anatomy-box-model",
+      "title": "Box model"
+    },
+    {
+      "id": "git-merge",
+      "name": "GitMerge",
+      "tag": "anatomy-git-merge",
+      "title": "Branch and merge"
+    },
+    {
+      "id": "reactor",
+      "name": "Reactor",
+      "tag": "anatomy-reactor",
+      "title": "Pool reactor"
+    }
+  ]
+}

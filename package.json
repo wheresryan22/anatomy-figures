@@ -1,0 +1,312 @@
+{
+  "name": "anatomy-figures",
+  "version": "0.1.0",
+  "description": "Every Anatomy figure as a live, themeable React component. Drawn by Claude with the /anatomy skill.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./themes": {
+      "types": "./dist/themes.d.ts",
+      "import": "./dist/themes.js"
+    },
+    "./hash-map": {
+      "types": "./dist/hash-map.d.ts",
+      "import": "./dist/hash-map.js"
+    },
+    "./element/hash-map": {
+      "types": "./dist/element/hash-map.d.ts",
+      "import": "./dist/element/hash-map.js"
+    },
+    "./binary-search": {
+      "types": "./dist/binary-search.d.ts",
+      "import": "./dist/binary-search.js"
+    },
+    "./element/binary-search": {
+      "types": "./dist/element/binary-search.d.ts",
+      "import": "./dist/element/binary-search.js"
+    },
+    "./dns": {
+      "types": "./dist/dns.d.ts",
+      "import": "./dist/dns.js"
+    },
+    "./element/dns": {
+      "types": "./dist/element/dns.d.ts",
+      "import": "./dist/element/dns.js"
+    },
+    "./message-queue": {
+      "types": "./dist/message-queue.d.ts",
+      "import": "./dist/message-queue.js"
+    },
+    "./element/message-queue": {
+      "types": "./dist/element/message-queue.d.ts",
+      "import": "./dist/element/message-queue.js"
+    },
+    "./lru-cache": {
+      "types": "./dist/lru-cache.d.ts",
+      "import": "./dist/lru-cache.js"
+    },
+    "./element/lru-cache": {
+      "types": "./dist/element/lru-cache.d.ts",
+      "import": "./dist/element/lru-cache.js"
+    },
+    "./tcp-handshake": {
+      "types": "./dist/tcp-handshake.d.ts",
+      "import": "./dist/tcp-handshake.js"
+    },
+    "./element/tcp-handshake": {
+      "types": "./dist/element/tcp-handshake.d.ts",
+      "import": "./dist/element/tcp-handshake.js"
+    },
+    "./gradient-descent": {
+      "types": "./dist/gradient-descent.d.ts",
+      "import": "./dist/gradient-descent.js"
+    },
+    "./element/gradient-descent": {
+      "types": "./dist/element/gradient-descent.d.ts",
+      "import": "./dist/element/gradient-descent.js"
+    },
+    "./bloom-filter": {
+      "types": "./dist/bloom-filter.d.ts",
+      "import": "./dist/bloom-filter.js"
+    },
+    "./element/bloom-filter": {
+      "types": "./dist/element/bloom-filter.d.ts",
+      "import": "./dist/element/bloom-filter.js"
+    },
+    "./flex-grow": {
+      "types": "./dist/flex-grow.d.ts",
+      "import": "./dist/flex-grow.js"
+    },
+    "./element/flex-grow": {
+      "types": "./dist/element/flex-grow.d.ts",
+      "import": "./dist/element/flex-grow.js"
+    },
+    "./mark-sweep": {
+      "types": "./dist/mark-sweep.d.ts",
+      "import": "./dist/mark-sweep.js"
+    },
+    "./element/mark-sweep": {
+      "types": "./dist/element/mark-sweep.d.ts",
+      "import": "./dist/element/mark-sweep.js"
+    },
+    "./b-tree": {
+      "types": "./dist/b-tree.d.ts",
+      "import": "./dist/b-tree.js"
+    },
+    "./element/b-tree": {
+      "types": "./dist/element/b-tree.d.ts",
+      "import": "./dist/element/b-tree.js"
+    },
+    "./debounce": {
+      "types": "./dist/debounce.d.ts",
+      "import": "./dist/debounce.js"
+    },
+    "./element/debounce": {
+      "types": "./dist/element/debounce.d.ts",
+      "import": "./dist/element/debounce.js"
+    },
+    "./mutex": {
+      "types": "./dist/mutex.d.ts",
+      "import": "./dist/mutex.js"
+    },
+    "./element/mutex": {
+      "types": "./dist/element/mutex.d.ts",
+      "import": "./dist/element/mutex.js"
+    },
+    "./merge-sort": {
+      "types": "./dist/merge-sort.d.ts",
+      "import": "./dist/merge-sort.js"
+    },
+    "./element/merge-sort": {
+      "types": "./dist/element/merge-sort.d.ts",
+      "import": "./dist/element/merge-sort.js"
+    },
+    "./sampling": {
+      "types": "./dist/sampling.d.ts",
+      "import": "./dist/sampling.js"
+    },
+    "./element/sampling": {
+      "types": "./dist/element/sampling.d.ts",
+      "import": "./dist/element/sampling.js"
+    },
+    "./afterburner": {
+      "types": "./dist/afterburner.d.ts",
+      "import": "./dist/afterburner.js"
+    },
+    "./element/afterburner": {
+      "types": "./dist/element/afterburner.d.ts",
+      "import": "./dist/element/afterburner.js"
+    },
+    "./glass-furnace": {
+      "types": "./dist/glass-furnace.d.ts",
+      "import": "./dist/glass-furnace.js"
+    },
+    "./element/glass-furnace": {
+      "types": "./dist/element/glass-furnace.d.ts",
+      "import": "./dist/element/glass-furnace.js"
+    },
+    "./tokamak": {
+      "types": "./dist/tokamak.d.ts",
+      "import": "./dist/tokamak.js"
+    },
+    "./element/tokamak": {
+      "types": "./dist/element/tokamak.d.ts",
+      "import": "./dist/element/tokamak.js"
+    },
+    "./plasma-cutter": {
+      "types": "./dist/plasma-cutter.d.ts",
+      "import": "./dist/plasma-cutter.js"
+    },
+    "./element/plasma-cutter": {
+      "types": "./dist/element/plasma-cutter.d.ts",
+      "import": "./dist/element/plasma-cutter.js"
+    },
+    "./forge": {
+      "types": "./dist/forge.d.ts",
+      "import": "./dist/forge.js"
+    },
+    "./element/forge": {
+      "types": "./dist/element/forge.d.ts",
+      "import": "./dist/element/forge.js"
+    },
+    "./turbofan": {
+      "types": "./dist/turbofan.d.ts",
+      "import": "./dist/turbofan.js"
+    },
+    "./element/turbofan": {
+      "types": "./dist/element/turbofan.d.ts",
+      "import": "./dist/element/turbofan.js"
+    },
+    "./power-station": {
+      "types": "./dist/power-station.d.ts",
+      "import": "./dist/power-station.js"
+    },
+    "./element/power-station": {
+      "types": "./dist/element/power-station.d.ts",
+      "import": "./dist/element/power-station.js"
+    },
+    "./process-pump": {
+      "types": "./dist/process-pump.d.ts",
+      "import": "./dist/process-pump.js"
+    },
+    "./element/process-pump": {
+      "types": "./dist/element/process-pump.d.ts",
+      "import": "./dist/element/process-pump.js"
+    },
+    "./watch": {
+      "types": "./dist/watch.d.ts",
+      "import": "./dist/watch.js"
+    },
+    "./element/watch": {
+      "types": "./dist/element/watch.d.ts",
+      "import": "./dist/element/watch.js"
+    },
+    "./seasons": {
+      "types": "./dist/seasons.d.ts",
+      "import": "./dist/seasons.js"
+    },
+    "./element/seasons": {
+      "types": "./dist/element/seasons.d.ts",
+      "import": "./dist/element/seasons.js"
+    },
+    "./computer": {
+      "types": "./dist/computer.d.ts",
+      "import": "./dist/computer.js"
+    },
+    "./element/computer": {
+      "types": "./dist/element/computer.d.ts",
+      "import": "./dist/element/computer.js"
+    },
+    "./rate-limiter": {
+      "types": "./dist/rate-limiter.d.ts",
+      "import": "./dist/rate-limiter.js"
+    },
+    "./element/rate-limiter": {
+      "types": "./dist/element/rate-limiter.d.ts",
+      "import": "./dist/element/rate-limiter.js"
+    },
+    "./easing": {
+      "types": "./dist/easing.d.ts",
+      "import": "./dist/easing.js"
+    },
+    "./element/easing": {
+      "types": "./dist/element/easing.d.ts",
+      "import": "./dist/element/easing.js"
+    },
+    "./public-key": {
+      "types": "./dist/public-key.d.ts",
+      "import": "./dist/public-key.js"
+    },
+    "./element/public-key": {
+      "types": "./dist/element/public-key.d.ts",
+      "import": "./dist/element/public-key.js"
+    },
+    "./foundry": {
+      "types": "./dist/foundry.d.ts",
+      "import": "./dist/foundry.js"
+    },
+    "./element/foundry": {
+      "types": "./dist/element/foundry.d.ts",
+      "import": "./dist/element/foundry.js"
+    },
+    "./box-model": {
+      "types": "./dist/box-model.d.ts",
+      "import": "./dist/box-model.js"
+    },
+    "./element/box-model": {
+      "types": "./dist/element/box-model.d.ts",
+      "import": "./dist/element/box-model.js"
+    },
+    "./git-merge": {
+      "types": "./dist/git-merge.d.ts",
+      "import": "./dist/git-merge.js"
+    },
+    "./element/git-merge": {
+      "types": "./dist/element/git-merge.d.ts",
+      "import": "./dist/element/git-merge.js"
+    },
+    "./reactor": {
+      "types": "./dist/reactor.d.ts",
+      "import": "./dist/reactor.js"
+    },
+    "./element/reactor": {
+      "types": "./dist/element/reactor.d.ts",
+      "import": "./dist/element/reactor.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "anatomy",
+    "isometric",
+    "react",
+    "figures",
+    "svg",
+    "webgl",
+    "claude"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheresryan22/anatomy.git"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  }
+}
